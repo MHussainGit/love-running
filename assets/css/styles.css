@@ -18,7 +18,9 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-h1,h2,h3 {
+h1,
+h2,
+h3 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -237,7 +239,7 @@ main {
         display: flex;
     }
 
-    #menu >li {
+    #menu>li {
         padding-left: 1rem;
     }
 
@@ -271,12 +273,12 @@ main {
         width: 100%;
     }
 
-    #benefits-physical > div,
-    #benefits-mental > div {
+    #benefits-physical>div,
+    #benefits-mental>div {
         width: 75%;
     }
 
-    #benefits-mental > div {
+    #benefits-mental>div {
         text-align: end;
         align-self: flex-end;
     }
@@ -295,9 +297,9 @@ main {
 }
 
 /* Gallery */
-    #photos {
-        column-count: 4;
-    }
+#photos {
+    column-count: 4;
+}
 
 @media screen and (min-width: 1200px) {
 
