@@ -393,11 +393,11 @@ main {
         flex-direction: row;
     }
 
-    #benefits>div {
-        flex: 1,
+    #benefits> div {
+        flex: 1;
     }
 
-    #benefits-image>div {
+    #benefits-image> div {
         order: 0;
     }
 
@@ -405,11 +405,11 @@ main {
         order: 1;
     }
 
-    #benefits-mental>div {
+    #benefits-mental> div {
         align-self: flex-start;
     }
 
-    #benefits-physical>div {
+    #benefits-physical> div {
         align-self: flex-end;
     }
 }
