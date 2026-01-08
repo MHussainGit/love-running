@@ -219,7 +219,7 @@ main {
 
 
 #signup-form>h2 {
-    color: #ffffff;
+    color: #fafafa;
     margin-bottom: 20px;
 }
 
@@ -339,7 +339,7 @@ main {
         column-count: 3;
     }
 
-    /* Signup page */
+    /* Form*/
     #signup {
         background-position: center;
         position: relative;
@@ -349,7 +349,7 @@ main {
         max-width: 400px;
         position: absolute;
         left: 10%;
-        top: 150%;
+        top: 150px;
     }
 
     .text-input:hover {
@@ -364,7 +364,7 @@ main {
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-    #menu a:hover {
+    #menu a:hover{
         border-bottom: 1px solid #3a3a3a;
     }
 
@@ -375,8 +375,7 @@ main {
 }
 
 @media screen and (min-width: 1200px) {
-
-    /* Reasons section */
+     /* Reasons section */
     #benefits {
         display: flex;
         flex-direction: row;
