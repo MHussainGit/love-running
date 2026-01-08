@@ -208,6 +208,11 @@ main {
     background-position: 75%;
     padding: 20px 10% 0 10%;
     flex-grow: 1;
+    min-height: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
 
 
@@ -215,7 +220,12 @@ main {
     color: #ffffff;
     background-color: rgba(60, 60, 60, 0.6);
     padding: 30px;
+    width: 100%;
+    max-width: 420px;
+    box-sizing: border-box;
+    margin: 0 auto;
 }
+
 
 
 #signup-form>h2 {
@@ -343,13 +353,15 @@ main {
     #signup {
         background-position: center;
         position: relative;
+        min-height: 420px;
     }
 
     #signup-form {
-        max-width: 400px;
+        max-width: 420px;
         position: absolute;
-        left: 10%;
-        top: 150px;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
     }
 
     .text-input:hover {
