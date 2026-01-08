@@ -199,6 +199,18 @@ main {
 #photos {
     line-height: 0;
 }
+/*Signup page */
+#signup {
+    width: 90%;
+    max-width: 640px;
+    margin: 24px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 16px;
+}
 
 /*Footer*/
 #social-networks {
